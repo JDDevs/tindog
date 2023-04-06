@@ -1,0 +1,252 @@
+/* GENERAL */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 1.5;
+    color: white;
+    padding-bottom: 5%;
+}
+
+h2{
+    font-size: 3rem;
+    text-align: center;
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+
+}
+
+p{
+    color: #8f8f8f;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/* TITLE STYLES */
+
+#title{
+    background-color: #ff4c68;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+    /* NAVIGATION BAR */
+    
+#nav-bar-brand{
+    padding-bottom: 8%;
+
+}
+
+#navbar-menu{
+    font-size: 1.5rem;
+}
+
+.nav-item{
+    padding-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: light;
+}
+
+#brand-logo{
+
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: ubuntu;
+}
+
+    /* TITLE & BUTTONS */
+
+.btn-container button{
+    margin-right: 20px;
+}
+
+#phone-dog-image{
+    transform: rotate(25deg);
+    margin-left: 100px;
+    width: 20%;
+    position: absolute;
+}
+
+    /* FEATURES */
+
+    #features{
+        text-align: center;
+        background-color: #fff;
+        padding: 7% 15%;
+        position: relative;
+        z-index: 1;
+    }
+
+    .ft-icons{
+        color: #ef8172;
+        font-size: 4rem;
+        padding-bottom: 5%;
+    }
+
+    .ft-icons:hover{
+        color: #ff4c68;
+        font-size: 4rem;
+        padding-bottom: 5%;
+    }
+
+    .ft-boxes{
+       font-size: 1.2rem;
+       text-align: center; 
+        padding: 5%;
+    }
+
+
+    /* TESTIMONIALS */
+
+    #testimonials{
+        text-align: center;
+        color: #fff;
+        background-color: #ff4c68;
+        
+    }
+
+    .testimonial-img{
+        width: 10%;
+        border-radius: 100%;
+        margin: 20px 20px;
+    }
+
+    #press{
+        text-align: center;
+        color: #fff;
+        background-color: #ff4c68;
+        padding: 2% 15% 10%;
+    }
+    .press-img{
+        width: 80%;
+
+    }
+
+    .carousel-item{
+        padding: 7% 15%;
+    }
+
+    /* PRICING SECTION */
+
+    #pricing h2{
+        color: #212529;
+    }
+
+    #pricing{
+        text-align: center;
+        background-color: #fff;
+        padding: 7% 15%;
+    }   
+
+    .card-cols{
+        padding: 3% 2%;
+    }
+    .card-body{
+        padding: 10%;
+    }
+
+
+    /* CALL TO ACTION */
+
+    #cta{
+        text-align: center;
+        background-color: #ff4c68;
+        padding: 7% 15%;
+    }
+
+    #cta h3{
+        font-size: 4rem;
+        line-height: 1.5;
+        color: #fff;
+        margin-bottom: 5%;
+    }
+
+
+    /* FOOTER */
+
+    #footer{
+        text-align: center;
+        background-color: #fff;
+        padding: 7% 15%;
+        
+    }
+
+    .icons-footer{
+        padding-bottom: 2%;
+    }
+
+    .icon-ft{
+        margin: 0 1%;
+        font-size: 1.2rem;
+    }
+    /* MEDIA QUERY */
+
+    @media (max-width: 1028px){
+        #phone-dog-image{
+            transform: rotate(0);
+            width: 90%;
+            position: static;
+            margin: 20% auto;
+        
+        }
+        body{
+            text-align: center;
+        }
+        h1{
+    
+            font-weight: 900;
+            font-size: 4rem;
+            line-height: 1.5;
+            color: white;
+            padding-bottom: 5%;
+        }
+        .testimonial-img{
+            width: 40%;
+            border-radius: 100%;
+            margin: 20px 20px;
+        }
+
+        #press{
+            text-align: center;
+            color: #fff;
+            background-color: #ff4c68;
+            padding: 2% 15% 10%;
+        }
+        .press-img{
+            width: 80%;
+            margin: 15% 0;
+    
+        }
+        #testimonials{
+           padding-top: 10%;
+            
+        }
+
+        .btn-cta{
+            margin: 5% 0;
+            font-size: 1.2rem;
+        }
+
+        #cta h3{
+            text-align: center;
+            font-size: 3rem;
+            line-height: 1.5;
+            color: #fff;
+            margin-bottom: 5%;
+        }
+    }
+    
